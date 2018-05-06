@@ -1,7 +1,6 @@
 import random as rand
 import doctest
 
-
 def is_a_prime(num):
     """
     >>> is_a_prime(1)
