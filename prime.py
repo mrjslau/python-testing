@@ -1,6 +1,4 @@
 import random as rand
-import doctest
-
 
 def is_a_prime(num):
     """Print if a given number 'num' is a prime number or not
@@ -40,4 +38,6 @@ def is_a_prime(num):
     else:
         print(num, "is not a prime number")
 
-is_a_prime(969)
+if __name__=="__main__":
+    import doctest
+    doctest.testmod()
