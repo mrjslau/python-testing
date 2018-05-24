@@ -21,7 +21,7 @@ $ python3 unittests.py
 You can also try functions yourself:
 ```
 $ python3
->>>import converter, prime
->>>is_a_prime(3)
->>>converter(36, 'c', 'f')
+>>>import conversion, prime
+>>>prime.is_a_prime(3)
+>>>conversion.converter(36, 'c', 'f')
 ```
